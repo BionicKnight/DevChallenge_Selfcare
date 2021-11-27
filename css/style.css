@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato';
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 26px 0px;
+    padding: 6px 64px;
+
+    position: sticky;
+    top: 0px;
+    background: #f6f5f4;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0px 16px;
+    display: flex;
+    align-items: center;
+}
+
+.iconesNav {
+    display: flex;
+}
+
+.iconesNav img {
+    height: 24px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+.banner {
+    width: 100%;
+}
