@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Lato';
+    background-color: #FFFFFF;
 }
 
 nav {
@@ -28,7 +29,7 @@ nav ul li {
     align-items: center;
 }
 
-.iconesNav {
+nav .iconesNav {
     display: flex;
 }
 
@@ -42,4 +43,76 @@ nav ul li:last-child {
 
 .banner {
     width: 100%;
+}
+
+footer {
+    background-color: #f9f9f9;
+    font-weight: 600;
+}
+
+footer .footerParte1,
+footer .footerParte2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footerParte1 {
+    border-top: solid 1px #d9d9d9;
+    border-bottom: solid 1px #d9d9d9;
+}
+
+footer .footerParte2 {
+    display: flex;
+    align-items: center;
+}
+
+footer .linksInstitucionais,
+footer .newsletter {
+    list-style: none;
+    line-height: 30px;
+    margin: 26px 0px;
+    padding: 6px 64px;
+}
+
+footer .linksInstitucionais a {
+    color: #161616;
+    text-decoration: none;
+}
+
+footer .linksInstitucionais a:hover {
+    text-decoration: underline;
+}
+
+footer .inputEmail {
+    display: flex;
+}
+
+footer .newsletter button {
+    background-color: #5ca720;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    color: #FFFFFF;
+    font-weight: 800;
+    padding: 16px;
+}
+
+footer .newsletter input {
+    padding: 8px;
+    background: #FFFFFF;
+    border: #d9d9d9 0.5px solid; 
+    border-radius: 5px 0px 0px 5px;
+}
+
+footer .footerItemsRight,
+footer .footerItemsLeft {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 26px 0px;
+    padding: 6px 56px;
+}
+
+footer .iconesFooter {
+    margin: 8px
 }
